@@ -1,19 +1,22 @@
 # Sable Paint — Privacy Policy
 
-**Last updated: 2026-06-18**
+**Last updated: 2026-06-22**
 
 Sable Paint ("the Software") is a desktop painting application developed by
 Stephen Schirle ("we", "us"). This policy explains what data the Software
 involves and how it is handled. The short version: Sable Paint is built to
-run on your own device, your artwork stays with you, and we do not run
-analytics or sell your data.
+run on your own device, your artwork stays with you, and we do not profile
+you or sell your data.
 
 ## 1. Summary
 
 - Your artwork and files stay on your device. We do not upload, access, or
   store them.
-- The Software has no analytics, no usage tracking, and no advertising.
-- The only network activity in normal use is checking for software updates.
+- We do not profile you, track which features you use, or serve advertising.
+  The only data we record is one coarse, anonymous data point per update
+  check (see Section 3).
+- Normal network activity is limited to checking for updates and — if you
+  buy a license — activating and periodically re-validating your license key.
 - A few optional features (off by default) talk to third parties only when
   you turn them on.
 - We do not sell or rent your personal information.
@@ -27,17 +30,30 @@ own backups.
 
 ## 3. Data the Software handles
 
-**License keys.** Paid license keys are validated on your device. Your email
-address may be embedded in your license token so the key can be tied to you;
-that token is stored locally and is not transmitted to us as part of using
-or validating the Software.
+**License keys.** When you activate a paid license, the Software sends your
+license key, an organization identifier, and a device label (your computer's
+name, so you can tell your devices apart in your account portal) to our
+licensing provider, **Polar**, to register this device and verify the key.
+The Software re-validates the key with Polar in the background on later
+launches; once verified it keeps working offline for up to 14 days between
+checks. Polar returns your associated name (shown in-app as "Licensed to …")
+and the key's status. That verdict is cached locally on your device. You can
+free a device's slot at any time from your Polar customer portal or with
+"Deactivate this device" in the Software. (If you instead obtained the
+Software through Steam, no key is involved — see below.)
 
 **Update checks.** The Software periodically checks whether a newer version
-is available by contacting our public release host (GitHub Releases) and may
-download an installer from it. As with any web request, the host can receive
-your IP address and basic request metadata in order to serve the file. We do
-not attach any identifier of our own to these requests. See GitHub's privacy
-statement for how GitHub handles request logs.
+is available by contacting our update service (`api.sablepaint.com`, run on
+Cloudflare). That service records one coarse, anonymous data point per
+check — the app version, a free/paid flag, and an approximate country derived
+at the network edge — and then serves the update manifest. No IP address is
+stored and nothing identifying you personally (no name, email, or license id)
+is sent; the free/paid flag is resolved entirely offline from your installed
+license. If that service is unavailable, the Software falls back to fetching
+the manifest directly from GitHub Releases (no logging). Installers are
+downloaded from GitHub Releases; as with any web request, the host receives
+your IP address in order to serve the file. See GitHub's and Cloudflare's
+privacy statements for how they handle request logs.
 
 **Optional Discord features (off by default).** These transmit data only if
 you enable and use them:
@@ -54,27 +70,32 @@ entitlement are handled by Steam and are subject to Valve's privacy policy.
 
 ## 4. Purchases
 
-If you purchase a license, the transaction is handled by a third-party
-storefront or payment processor under its own privacy policy. We do not
-receive or store your full payment details. We receive only the limited
-information needed to issue and support your license, such as your email
-address.
+If you purchase a license, the transaction is handled by **Polar**
+(polar.sh), which acts as the merchant of record for Sable Paint and
+handles payment processing and any applicable sales tax or VAT under its own
+privacy policy. We do not receive or store your full payment details. We
+receive only the limited information needed to issue and support your
+license, such as your name, email address, and license/activation status.
 
 ## 5. What we do not collect
 
-We do not collect usage analytics or telemetry, do not track which tools or
-features you use, do not serve advertising, do not use tracking cookies (it
-is a desktop application), and do not sell, rent, or trade your personal
-information.
+We do not profile you, do not track which tools or features you use, do not
+serve advertising, and do not use tracking cookies (it is a desktop
+application). Aside from the single coarse, anonymous data point per update
+check described in Section 3 (app version, free/paid flag, approximate
+country), we collect no usage analytics or telemetry, and we do not sell,
+rent, or trade your personal information.
 
 ## 6. Third-party services
 
 Depending on the features you use, the Software may interact with:
 
-- **GitHub** — hosting software updates and downloads.
+- **Polar** — our licensing provider and merchant of record; handles
+  purchases, license-key issuance, and online key activation/validation.
+- **Cloudflare** — runs our update-check service (`api.sablepaint.com`).
+- **GitHub** — hosting software updates and installer downloads.
 - **Discord** — optional Rich Presence and image sharing, only when enabled.
 - **Steam / Valve** — only if you obtained the Software via Steam.
-- **A storefront / payment processor** — only if you purchase a license.
 
 Each of these operates under its own privacy policy, which governs the data
 it handles.
