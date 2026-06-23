@@ -1,0 +1,123 @@
+SABLE PAINT — END USER LICENSE AGREEMENT
+
+Last updated: 2026-06-22
+
+1. AGREEMENT
+
+This End User License Agreement ("Agreement") is a legal agreement between
+you ("you") and Stephen Schirle ("we", "us"), the developer of Sable Paint
+("the Software"). By installing, accepting, or using the Software, you agree
+to be bound by this Agreement. If you do not agree, do not install or use
+the Software.
+
+2. LICENSE GRANT
+
+We grant you a personal, non-exclusive, non-transferable, revocable license
+to install and use the Software on devices you own or control, for the
+purpose of creating digital artwork, subject to this Agreement.
+
+  (a) Free tier. The Software may be used at no cost with reduced limits
+      (for example, a capped canvas size and layer count). The free tier is
+      provided for evaluation and casual use.
+
+  (b) Paid license. Purchasing a license unlocks the full version.
+      Purchases and license keys are handled by our licensing provider,
+      Polar (polar.sh), which acts as the merchant of record. A license key
+      is issued to you for your own use and may be activated on a limited
+      number of devices; you can manage and free up your activated devices
+      from your Polar customer portal, or with "Deactivate this device" in
+      the Software. You may not sell, share, sublicense, publish, or
+      transfer your license key.
+
+  (c) Steam. If you obtained the Software through Steam, your entitlement is
+      governed by your Steam ownership and Valve's terms in addition to this
+      Agreement; no separate key is issued.
+
+3. YOUR CONTENT
+
+You retain all rights to the artwork, images, and files you create with the
+Software ("Your Content"). We claim no ownership of Your Content and do not
+access it. You are solely responsible for Your Content and for keeping
+backups of it.
+
+4. RESTRICTIONS
+
+You may not: (a) copy, redistribute, sell, rent, lease, or sublicense the
+Software itself; (b) reverse engineer, decompile, or disassemble the
+Software, except to the extent this restriction is prohibited by applicable
+law; (c) remove or alter any proprietary notices; (d) circumvent or tamper
+with the licensing/entitlement system; or (e) use the Software to break the
+law.
+
+5. OWNERSHIP
+
+The Software — including its code, shaders, UI, bundled assets, name, and
+branding — is owned by us and protected by copyright and other laws. Except
+for the limited license granted above, no rights are transferred to you.
+Third-party components are licensed under their own terms; see the bundled
+third-party license notices (Help > Documentation).
+
+6. UPDATES
+
+The Software may check for and download updates automatically to keep your
+installation current. Updates are provided at our discretion and are
+governed by this Agreement unless they ship with their own terms.
+
+7. PRIVACY AND DATA
+
+The Software is designed to run locally; your artwork never leaves your
+device. Limited data is transmitted in the course of normal operation:
+
+  - License activation and validation contact our licensing provider,
+    Polar, and transmit your license key and a device label (your
+    computer's name) so the key can be registered to your device and
+    verified. The Software re-validates periodically and keeps working
+    offline for up to 14 days between successful checks.
+  - Update checks contact our update service and release host, which
+    receive the app version, a coarse free/paid flag, an approximate
+    (edge-derived) country, and — when downloading — your IP address.
+    Nothing identifying you personally is sent.
+  - Optional Discord features (off by default) transmit data only when you
+    enable them: Rich Presence sends "now painting" activity to your local
+    Discord client, and sharing a render uploads that image to a Discord
+    webhook you configure.
+
+We do not sell your personal data. For details, see our Privacy Policy at
+https://github.com/stephen82818/sable-releases/blob/main/PRIVACY_POLICY.md
+
+8. DISCLAIMER OF WARRANTIES
+
+THE SOFTWARE IS PROVIDED "AS IS" AND "AS AVAILABLE", WITHOUT WARRANTY OF ANY
+KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED
+WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND
+NON-INFRINGEMENT. WE DO NOT WARRANT THAT THE SOFTWARE WILL BE ERROR-FREE,
+UNINTERRUPTED, OR THAT IT WILL NOT LOSE OR CORRUPT DATA. YOU USE THE
+SOFTWARE AT YOUR OWN RISK AND ARE RESPONSIBLE FOR BACKING UP YOUR WORK.
+
+9. LIMITATION OF LIABILITY
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, WE WILL NOT BE LIABLE FOR ANY
+INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, OR FOR
+ANY LOSS OF DATA, ARTWORK, PROFITS, OR GOODWILL, ARISING OUT OF OR RELATED
+TO YOUR USE OF THE SOFTWARE. OUR TOTAL LIABILITY FOR ANY CLAIM WILL NOT
+EXCEED THE AMOUNT YOU PAID FOR THE SOFTWARE IN THE TWELVE MONTHS BEFORE THE
+CLAIM (OR ZERO IF YOU USE THE FREE TIER). Some jurisdictions do not allow
+certain limitations, so some of the above may not apply to you.
+
+10. TERMINATION
+
+This Agreement is effective until terminated. It terminates automatically if
+you breach it. On termination you must stop using and uninstall the
+Software. Sections 3, 5, 8, 9, and 11 survive termination.
+
+11. GENERAL
+
+This Agreement is governed by the laws of the State of California, United
+States, without regard to conflict-of-laws rules. If any provision is found unenforceable, the rest
+remains in effect. We may update this Agreement; continued use after an
+update constitutes acceptance of the revised terms. We will surface a fresh
+acceptance prompt for material changes.
+
+12. CONTACT
+
+Questions about this Agreement: hello@sablepaint.com
